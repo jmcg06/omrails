@@ -3,10 +3,11 @@
 $baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=oxygen);*/
 
+$btnPrimaryBackground: green;
+
 $navbarBackgroundHighlight: white;
-$navbarBackground: gray;
-$navbarText: yellow;
-$navbarBrandColor: black;
+$navbarBackground: white;
+
 
 
 @import 'bootstrap';
@@ -17,11 +18,26 @@ body {
 
 @import 'bootstrap-responsive';
 
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.carousel-caption h1 {
+
+	margin: 0;
+	line-height: 1.25;
+	width: 400px;
+	color: white;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
+
 .footer {
 
 	margin-top: 50px;
 	color: $grayLight;
 	a {
-		color: $gray; 
+		color: $blue; 
 	}
 }
