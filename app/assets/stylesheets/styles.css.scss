@@ -9,6 +9,56 @@ $navbarBackgroundHighlight: black;
 $navbarBackground: black;
 
 
+.navbar-fixed-top {
+padding-top: 8px;
+font-weight: 400;
+font-family: CabinRegular, Trebuchet MS, Futura, Gill Sans, helvetica, arial, serif;
+
+	
+}
+
+
+.section.intro {
+position: relative;
+height: 450px;
+min-height: 450px;
+color: #fff;
+overflow: hidden;
+}
+
+.section.intro .video-container img {
+position: absolute;
+top: 0;
+width: 100%;
+min-height: 100%;
+min-width: 1488px;
+}
+
+.section .content {
+width: 940px;
+padding: 20px;
+margin: 0 auto;
+
+	}
+
+.section.intro .video-container .content .content-copy {
+position: absolute;
+top: 0;
+right: 100px;
+text-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+
+.section .content .content-copy {
+width: 500px;
+margin-top: 50px;
+}
+
+.section.intro .video-container .content .content-copy h1 {
+font-size: 45px;
+line-height: 47px;
+font-weight: normal;
+margin-bottom: 15px;
+}
 
 @import 'bootstrap';
 
